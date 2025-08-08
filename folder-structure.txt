@@ -1,0 +1,953 @@
+Folder PATH listing
+Volume serial number is 2A90-11F9
+C:.
+�   composer.json
+�   composer.lock
+�   folder-structure.txt
+�   index.php
+�   pemail-sent.php
+�   pforgot_password.php
+�   plogin.php
+�   preset-password.php
+�   psignup.php
+�   temail-sent.php
+�   tforgot-password.php
+�   tlogin.php
+�   treset-password.php
+�   tsignup.php
+�   
+����assets
+�   ����css
+�   �       pemail-sent.css
+�   �       pforgot_password.css
+�   �       plogin.css
+�   �       preset-password.css
+�   �       psignup.css
+�   �       style.css
+�   �       temail-sent.css
+�   �       tforgot-password.css
+�   �       tlogin.css
+�   �       treset-password.css
+�   �       tsignup.css
+�   �       
+�   ����js
+�           pemail-sent.js
+�           plogin.js
+�           preset-password.js
+�           psignup.js
+�           script.js
+�           temail-sent.js
+�           tlogin.js
+�           treset-password.js
+�           tsignup.js
+�           
+����auth
+�       forgot_password.php
+�       login.php
+�       reset.php
+�       sign_up.php
+�       verify-otp.php
+�       
+����chat
+�   �   avatar.png
+�   �   chat.php
+�   �   relate.php
+�   �   th_notification.css
+�   �   th_notification.js
+�   �   th_notification.php
+�   �   
+�   ����chat-flow
+�           chat_view.php
+�           debug.txt
+�           get_conn.php
+�           mark_notif.php
+�           notif.php
+�           
+����config
+�       db.php
+�
+����home
+�   �   therapist.php
+�   �   victim.php
+�   �   
+�   ����assets
+�       ����css
+�               therapist.css
+�               victim.css
+�               
+����images
+�   �   247.png
+�   �   639f4c15ad4f90afa630803e745a543e213f21ff.jpg
+�   �   anonymous.png
+�   �   black_logo.png
+�   �   black_logo2.png
+�   �   confrence.png
+�   �   dark_star.png
+�   �   hands.jpg
+�   �   hands1.png
+�   �   happy.png
+�   �   listener.png
+�   �   mission.png
+�   �   private.png
+�   �   star.png
+�   �   star2.png
+�   �   voice.png
+�   �   white_logo.png
+�   �   
+�   ����partners
+�   �       capitis-logo.0fdb9306.svg
+�   �       enugu-sme-logo.88c278f3.svg
+�   �       esg-logo.5e44c702.svg
+�   �       genesys-logo.df6b6556.svg
+�   �       ode-logo.68d565cf.svg
+�   �       peter-mbah-logo.f77990af.svg
+�   �       the-garage-logo.9cd53ada.svg
+�   �       
+�   ����profile
+�           female1.png
+�           female2.png
+�           male.png
+�           male2.png
+�           
+����questionnaire
+�   �   area.css
+�   �   area.php
+�   �   help.css
+�   �   help.js
+�   �   help.php
+�   �   question.css
+�   �   question.php
+�   �   
+�   ����certificate
+�   �       687633ca49e66_NNPC Designed without BG.drawio.pdf
+�   �       687a23661eec6_lasued 1.png
+�   �       68837da70ee3d_generated_photos_684578a34d715d000e815bad.jpg
+�   �       68837e1fd7ecd_AI_Generated_Logo_2025-06-07_0bd4cb8d-2e81-44dc-91f1-402b75f3de86-removebg-preview.png
+�   �       
+�   ����qauth
+�           questionnaire.php
+�           resolve.php
+�           solution.php
+�           
+����vendor
+�   �   autoload.php
+�   �   
+�   ����cboden
+�   �   ����ratchet
+�   �       �   .gitignore
+�   �       �   CHANGELOG.md
+�   �       �   composer.json
+�   �       �   LICENSE
+�   �       �   Makefile
+�   �       �   phpunit.xml.dist
+�   �       �   README.md
+�   �       �   SECURITY.md
+�   �       �   
+�   �       ����.github
+�   �       �   ����workflows
+�   �       �           ci.yml
+�   �       �           
+�   �       ����src
+�   �       �   ����Ratchet
+�   �       �       �   AbstractConnectionDecorator.php
+�   �       �       �   App.php
+�   �       �       �   ComponentInterface.php
+�   �       �       �   ConnectionInterface.php
+�   �       �       �   MessageComponentInterface.php
+�   �       �       �   MessageInterface.php
+�   �       �       �   
+�   �       �       ����Http
+�   �       �       �       CloseResponseTrait.php
+�   �       �       �       HttpRequestParser.php
+�   �       �       �       HttpServer.php
+�   �       �       �       HttpServerInterface.php
+�   �       �       �       NoOpHttpServerController.php
+�   �       �       �       OriginCheck.php
+�   �       �       �       Router.php
+�   �       �       �       
+�   �       �       ����Server
+�   �       �       �       EchoServer.php
+�   �       �       �       FlashPolicy.php
+�   �       �       �       IoConnection.php
+�   �       �       �       IoServer.php
+�   �       �       �       IpBlackList.php
+�   �       �       �       
+�   �       �       ����Session
+�   �       �       �   �   SessionProvider.php
+�   �       �       �   �   
+�   �       �       �   ����Serialize
+�   �       �       �   �       HandlerInterface.php
+�   �       �       �   �       PhpBinaryHandler.php
+�   �       �       �   �       PhpHandler.php
+�   �       �       �   �       
+�   �       �       �   ����Storage
+�   �       �       �       �   VirtualSessionStorage.php
+�   �       �       �       �   
+�   �       �       �       ����Proxy
+�   �       �       �               VirtualProxy.php
+�   �       �       �               
+�   �       �       ����Wamp
+�   �       �       �       Exception.php
+�   �       �       �       JsonException.php
+�   �       �       �       ServerProtocol.php
+�   �       �       �       Topic.php
+�   �       �       �       TopicManager.php
+�   �       �       �       WampConnection.php
+�   �       �       �       WampServer.php
+�   �       �       �       WampServerInterface.php
+�   �       �       �       
+�   �       �       ����WebSocket
+�   �       �               ConnContext.php
+�   �       �               MessageCallableInterface.php
+�   �       �               MessageComponentInterface.php
+�   �       �               WsConnection.php
+�   �       �               WsServer.php
+�   �       �               WsServerInterface.php
+�   �       �               
+�   �       ����tests
+�   �           �   bootstrap.php
+�   �           �   
+�   �           ����autobahn
+�   �           �   �   fuzzingclient-all.json
+�   �           �   �   fuzzingclient-profile.json
+�   �           �   �   fuzzingclient-quick.json
+�   �           �   �   
+�   �           �   ����bin
+�   �           �           fuzzingserver.php
+�   �           �           
+�   �           ����helpers
+�   �           �   ����Ratchet
+�   �           �       �   AbstractMessageComponentTestCase.php
+�   �           �       �   NullComponent.php
+�   �           �       �   
+�   �           �       ����Mock
+�   �           �       �       Component.php
+�   �           �       �       Connection.php
+�   �           �       �       ConnectionDecorator.php
+�   �           �       �       WampComponent.php
+�   �           �       �       
+�   �           �       ����Wamp
+�   �           �       �   ����Stub
+�   �           �       �           WsWampServerInterface.php
+�   �           �       �           
+�   �           �       ����WebSocket
+�   �           �           ����Stub
+�   �           �                   WsMessageComponentInterface.php
+�   �           �                   
+�   �           ����unit
+�   �               �   AbstractConnectionDecoratorTest.php
+�   �               �   
+�   �               ����Http
+�   �               �       HttpRequestParserTest.php
+�   �               �       HttpServerTest.php
+�   �               �       OriginCheckTest.php
+�   �               �       RouterTest.php
+�   �               �       
+�   �               ����Server
+�   �               �       EchoServerTest.php
+�   �               �       FlashPolicyComponentTest.php
+�   �               �       IoConnectionTest.php
+�   �               �       IoServerTest.php
+�   �               �       IpBlackListComponentTest.php
+�   �               �       
+�   �               ����Session
+�   �               �   �   SessionComponentTest.php
+�   �               �   �   
+�   �               �   ����Serialize
+�   �               �   �       PhpHandlerTest.php
+�   �               �   �       
+�   �               �   ����Storage
+�   �               �           VirtualSessionStoragePDOTest.php
+�   �               �           
+�   �               ����Wamp
+�   �                       ServerProtocolTest.php
+�   �                       TopicManagerTest.php
+�   �                       TopicTest.php
+�   �                       WampConnectionTest.php
+�   �                       WampServerTest.php
+�   �                       
+�   ����composer
+�   �       autoload_classmap.php
+�   �       autoload_files.php
+�   �       autoload_namespaces.php
+�   �       autoload_psr4.php
+�   �       autoload_real.php
+�   �       autoload_static.php
+�   �       ClassLoader.php
+�   �       installed.json
+�   �       installed.php
+�   �       InstalledVersions.php
+�   �       LICENSE
+�   �       platform_check.php
+�   �       
+�   ����evenement
+�   �   ����evenement
+�   �       �   .gitattributes
+�   �       �   composer.json
+�   �       �   LICENSE
+�   �       �   README.md
+�   �       �   
+�   �       ����src
+�   �               EventEmitter.php
+�   �               EventEmitterInterface.php
+�   �               EventEmitterTrait.php
+�   �               
+�   ����guzzlehttp
+�   �   ����psr7
+�   �       �   CHANGELOG.md
+�   �       �   composer.json
+�   �       �   LICENSE
+�   �       �   README.md
+�   �       �   
+�   �       ����src
+�   �           �   AppendStream.php
+�   �           �   BufferStream.php
+�   �           �   CachingStream.php
+�   �           �   DroppingStream.php
+�   �           �   FnStream.php
+�   �           �   Header.php
+�   �           �   HttpFactory.php
+�   �           �   InflateStream.php
+�   �           �   LazyOpenStream.php
+�   �           �   LimitStream.php
+�   �           �   Message.php
+�   �           �   MessageTrait.php
+�   �           �   MimeType.php
+�   �           �   MultipartStream.php
+�   �           �   NoSeekStream.php
+�   �           �   PumpStream.php
+�   �           �   Query.php
+�   �           �   Request.php
+�   �           �   Response.php
+�   �           �   Rfc7230.php
+�   �           �   ServerRequest.php
+�   �           �   Stream.php
+�   �           �   StreamDecoratorTrait.php
+�   �           �   StreamWrapper.php
+�   �           �   UploadedFile.php
+�   �           �   Uri.php
+�   �           �   UriComparator.php
+�   �           �   UriNormalizer.php
+�   �           �   UriResolver.php
+�   �           �   Utils.php
+�   �           �   
+�   �           ����Exception
+�   �                   MalformedUriException.php
+�   �                   
+�   ����phpmailer
+�   �   ����phpmailer
+�   �       �   COMMITMENT
+�   �       �   composer.json
+�   �       �   get_oauth_token.php
+�   �       �   LICENSE
+�   �       �   README.md
+�   �       �   SECURITY.md
+�   �       �   SMTPUTF8.md
+�   �       �   VERSION
+�   �       �   
+�   �       ����language
+�   �       �       phpmailer.lang-af.php
+�   �       �       phpmailer.lang-ar.php
+�   �       �       phpmailer.lang-as.php
+�   �       �       phpmailer.lang-az.php
+�   �       �       phpmailer.lang-ba.php
+�   �       �       phpmailer.lang-be.php
+�   �       �       phpmailer.lang-bg.php
+�   �       �       phpmailer.lang-bn.php
+�   �       �       phpmailer.lang-ca.php
+�   �       �       phpmailer.lang-cs.php
+�   �       �       phpmailer.lang-da.php
+�   �       �       phpmailer.lang-de.php
+�   �       �       phpmailer.lang-el.php
+�   �       �       phpmailer.lang-eo.php
+�   �       �       phpmailer.lang-es.php
+�   �       �       phpmailer.lang-et.php
+�   �       �       phpmailer.lang-fa.php
+�   �       �       phpmailer.lang-fi.php
+�   �       �       phpmailer.lang-fo.php
+�   �       �       phpmailer.lang-fr.php
+�   �       �       phpmailer.lang-gl.php
+�   �       �       phpmailer.lang-he.php
+�   �       �       phpmailer.lang-hi.php
+�   �       �       phpmailer.lang-hr.php
+�   �       �       phpmailer.lang-hu.php
+�   �       �       phpmailer.lang-hy.php
+�   �       �       phpmailer.lang-id.php
+�   �       �       phpmailer.lang-it.php
+�   �       �       phpmailer.lang-ja.php
+�   �       �       phpmailer.lang-ka.php
+�   �       �       phpmailer.lang-ko.php
+�   �       �       phpmailer.lang-ku.php
+�   �       �       phpmailer.lang-lt.php
+�   �       �       phpmailer.lang-lv.php
+�   �       �       phpmailer.lang-mg.php
+�   �       �       phpmailer.lang-mn.php
+�   �       �       phpmailer.lang-ms.php
+�   �       �       phpmailer.lang-nb.php
+�   �       �       phpmailer.lang-nl.php
+�   �       �       phpmailer.lang-pl.php
+�   �       �       phpmailer.lang-pt.php
+�   �       �       phpmailer.lang-pt_br.php
+�   �       �       phpmailer.lang-ro.php
+�   �       �       phpmailer.lang-ru.php
+�   �       �       phpmailer.lang-si.php
+�   �       �       phpmailer.lang-sk.php
+�   �       �       phpmailer.lang-sl.php
+�   �       �       phpmailer.lang-sr.php
+�   �       �       phpmailer.lang-sr_latn.php
+�   �       �       phpmailer.lang-sv.php
+�   �       �       phpmailer.lang-tl.php
+�   �       �       phpmailer.lang-tr.php
+�   �       �       phpmailer.lang-uk.php
+�   �       �       phpmailer.lang-ur.php
+�   �       �       phpmailer.lang-vi.php
+�   �       �       phpmailer.lang-zh.php
+�   �       �       phpmailer.lang-zh_cn.php
+�   �       �       
+�   �       ����src
+�   �               DSNConfigurator.php
+�   �               Exception.php
+�   �               OAuth.php
+�   �               OAuthTokenProvider.php
+�   �               PHPMailer.php
+�   �               POP3.php
+�   �               SMTP.php
+�   �               
+�   ����psr
+�   �   ����http-factory
+�   �   �   �   composer.json
+�   �   �   �   LICENSE
+�   �   �   �   README.md
+�   �   �   �   
+�   �   �   ����src
+�   �   �           RequestFactoryInterface.php
+�   �   �           ResponseFactoryInterface.php
+�   �   �           ServerRequestFactoryInterface.php
+�   �   �           StreamFactoryInterface.php
+�   �   �           UploadedFileFactoryInterface.php
+�   �   �           UriFactoryInterface.php
+�   �   �           
+�   �   ����http-message
+�   �       �   CHANGELOG.md
+�   �       �   composer.json
+�   �       �   LICENSE
+�   �       �   README.md
+�   �       �   
+�   �       ����docs
+�   �       �       PSR7-Interfaces.md
+�   �       �       PSR7-Usage.md
+�   �       �       
+�   �       ����src
+�   �               MessageInterface.php
+�   �               RequestInterface.php
+�   �               ResponseInterface.php
+�   �               ServerRequestInterface.php
+�   �               StreamInterface.php
+�   �               UploadedFileInterface.php
+�   �               UriInterface.php
+�   �               
+�   ����ralouphie
+�   �   ����getallheaders
+�   �       �   composer.json
+�   �       �   LICENSE
+�   �       �   README.md
+�   �       �   
+�   �       ����src
+�   �               getallheaders.php
+�   �               
+�   ����ratchet
+�   �   ����rfc6455
+�   �       �   .gitignore
+�   �       �   composer.json
+�   �       �   LICENSE
+�   �       �   phpunit.xml.dist
+�   �       �   README.md
+�   �       �   
+�   �       ����.github
+�   �       �   ����workflows
+�   �       �           ci.yml
+�   �       �           
+�   �       ����src
+�   �       �   ����Handshake
+�   �       �   �       ClientNegotiator.php
+�   �       �   �       InvalidPermessageDeflateOptionsException.php
+�   �       �   �       NegotiatorInterface.php
+�   �       �   �       PermessageDeflateOptions.php
+�   �       �   �       RequestVerifier.php
+�   �       �   �       ResponseVerifier.php
+�   �       �   �       ServerNegotiator.php
+�   �       �   �       
+�   �       �   ����Messaging
+�   �       �           CloseFrameChecker.php
+�   �       �           DataInterface.php
+�   �       �           Frame.php
+�   �       �           FrameInterface.php
+�   �       �           Message.php
+�   �       �           MessageBuffer.php
+�   �       �           MessageInterface.php
+�   �       �           
+�   �       ����tests
+�   �           �   AbResultsTest.php
+�   �           �   bootstrap.php
+�   �           �   
+�   �           ����ab
+�   �           �       clientRunner.php
+�   �           �       docker_bootstrap.sh
+�   �           �       fuzzingclient.json
+�   �           �       fuzzingclient_skip_deflate.json
+�   �           �       fuzzingserver.json
+�   �           �       fuzzingserver_skip_deflate.json
+�   �           �       run_ab_tests.sh
+�   �           �       startServer.php
+�   �           �       
+�   �           ����unit
+�   �               ����Handshake
+�   �               �       PermessageDeflateOptionsTest.php
+�   �               �       RequestVerifierTest.php
+�   �               �       ResponseVerifierTest.php
+�   �               �       ServerNegotiatorTest.php
+�   �               �       
+�   �               ����Messaging
+�   �                       FrameTest.php
+�   �                       MessageBufferTest.php
+�   �                       MessageTest.php
+�   �                       
+�   ����react
+�   �   ����cache
+�   �   �   �   CHANGELOG.md
+�   �   �   �   composer.json
+�   �   �   �   LICENSE
+�   �   �   �   README.md
+�   �   �   �   
+�   �   �   ����src
+�   �   �           ArrayCache.php
+�   �   �           CacheInterface.php
+�   �   �           
+�   �   ����dns
+�   �   �   �   CHANGELOG.md
+�   �   �   �   composer.json
+�   �   �   �   LICENSE
+�   �   �   �   README.md
+�   �   �   �   
+�   �   �   ����src
+�   �   �       �   BadServerException.php
+�   �   �       �   RecordNotFoundException.php
+�   �   �       �   
+�   �   �       ����Config
+�   �   �       �       Config.php
+�   �   �       �       HostsFile.php
+�   �   �       �       
+�   �   �       ����Model
+�   �   �       �       Message.php
+�   �   �       �       Record.php
+�   �   �       �       
+�   �   �       ����Protocol
+�   �   �       �       BinaryDumper.php
+�   �   �       �       Parser.php
+�   �   �       �       
+�   �   �       ����Query
+�   �   �       �       CachingExecutor.php
+�   �   �       �       CancellationException.php
+�   �   �       �       CoopExecutor.php
+�   �   �       �       ExecutorInterface.php
+�   �   �       �       FallbackExecutor.php
+�   �   �       �       HostsFileExecutor.php
+�   �   �       �       Query.php
+�   �   �       �       RetryExecutor.php
+�   �   �       �       SelectiveTransportExecutor.php
+�   �   �       �       TcpTransportExecutor.php
+�   �   �       �       TimeoutException.php
+�   �   �       �       TimeoutExecutor.php
+�   �   �       �       UdpTransportExecutor.php
+�   �   �       �       
+�   �   �       ����Resolver
+�   �   �               Factory.php
+�   �   �               Resolver.php
+�   �   �               ResolverInterface.php
+�   �   �               
+�   �   ����event-loop
+�   �   �   �   CHANGELOG.md
+�   �   �   �   composer.json
+�   �   �   �   LICENSE
+�   �   �   �   README.md
+�   �   �   �   
+�   �   �   ����src
+�   �   �       �   ExtEventLoop.php
+�   �   �       �   ExtEvLoop.php
+�   �   �       �   ExtLibeventLoop.php
+�   �   �       �   ExtLibevLoop.php
+�   �   �       �   ExtUvLoop.php
+�   �   �       �   Factory.php
+�   �   �       �   Loop.php
+�   �   �       �   LoopInterface.php
+�   �   �       �   SignalsHandler.php
+�   �   �       �   StreamSelectLoop.php
+�   �   �       �   TimerInterface.php
+�   �   �       �   
+�   �   �       ����Tick
+�   �   �       �       FutureTickQueue.php
+�   �   �       �       
+�   �   �       ����Timer
+�   �   �               Timer.php
+�   �   �               Timers.php
+�   �   �               
+�   �   ����promise
+�   �   �   �   CHANGELOG.md
+�   �   �   �   composer.json
+�   �   �   �   LICENSE
+�   �   �   �   README.md
+�   �   �   �   
+�   �   �   ����src
+�   �   �       �   Deferred.php
+�   �   �       �   functions.php
+�   �   �       �   functions_include.php
+�   �   �       �   Promise.php
+�   �   �       �   PromiseInterface.php
+�   �   �       �   
+�   �   �       ����Exception
+�   �   �       �       CompositeException.php
+�   �   �       �       LengthException.php
+�   �   �       �       
+�   �   �       ����Internal
+�   �   �               CancellationQueue.php
+�   �   �               FulfilledPromise.php
+�   �   �               RejectedPromise.php
+�   �   �               
+�   �   ����socket
+�   �   �   �   CHANGELOG.md
+�   �   �   �   composer.json
+�   �   �   �   LICENSE
+�   �   �   �   README.md
+�   �   �   �   
+�   �   �   ����src
+�   �   �           Connection.php
+�   �   �           ConnectionInterface.php
+�   �   �           Connector.php
+�   �   �           ConnectorInterface.php
+�   �   �           DnsConnector.php
+�   �   �           FdServer.php
+�   �   �           FixedUriConnector.php
+�   �   �           HappyEyeBallsConnectionBuilder.php
+�   �   �           HappyEyeBallsConnector.php
+�   �   �           LimitingServer.php
+�   �   �           SecureConnector.php
+�   �   �           SecureServer.php
+�   �   �           Server.php
+�   �   �           ServerInterface.php
+�   �   �           SocketServer.php
+�   �   �           StreamEncryption.php
+�   �   �           TcpConnector.php
+�   �   �           TcpServer.php
+�   �   �           TimeoutConnector.php
+�   �   �           UnixConnector.php
+�   �   �           UnixServer.php
+�   �   �           
+�   �   ����stream
+�   �       �   CHANGELOG.md
+�   �       �   composer.json
+�   �       �   LICENSE
+�   �       �   README.md
+�   �       �   
+�   �       ����src
+�   �               CompositeStream.php
+�   �               DuplexResourceStream.php
+�   �               DuplexStreamInterface.php
+�   �               ReadableResourceStream.php
+�   �               ReadableStreamInterface.php
+�   �               ThroughStream.php
+�   �               Util.php
+�   �               WritableResourceStream.php
+�   �               WritableStreamInterface.php
+�   �               
+�   ����symfony
+�       ����deprecation-contracts
+�       �       CHANGELOG.md
+�       �       composer.json
+�       �       function.php
+�       �       LICENSE
+�       �       README.md
+�       �       
+�       ����http-foundation
+�       �   �   AcceptHeader.php
+�       �   �   AcceptHeaderItem.php
+�       �   �   BinaryFileResponse.php
+�       �   �   ChainRequestMatcher.php
+�       �   �   CHANGELOG.md
+�       �   �   composer.json
+�       �   �   Cookie.php
+�       �   �   ExpressionRequestMatcher.php
+�       �   �   FileBag.php
+�       �   �   HeaderBag.php
+�       �   �   HeaderUtils.php
+�       �   �   InputBag.php
+�       �   �   IpUtils.php
+�       �   �   JsonResponse.php
+�       �   �   LICENSE
+�       �   �   ParameterBag.php
+�       �   �   README.md
+�       �   �   RedirectResponse.php
+�       �   �   Request.php
+�       �   �   RequestMatcher.php
+�       �   �   RequestMatcherInterface.php
+�       �   �   RequestStack.php
+�       �   �   Response.php
+�       �   �   ResponseHeaderBag.php
+�       �   �   ServerBag.php
+�       �   �   StreamedJsonResponse.php
+�       �   �   StreamedResponse.php
+�       �   �   UriSigner.php
+�       �   �   UrlHelper.php
+�       �   �   
+�       �   ����Exception
+�       �   �       BadRequestException.php
+�       �   �       ConflictingHeadersException.php
+�       �   �       JsonException.php
+�       �   �       RequestExceptionInterface.php
+�       �   �       SessionNotFoundException.php
+�       �   �       SuspiciousOperationException.php
+�       �   �       UnexpectedValueException.php
+�       �   �       
+�       �   ����File
+�       �   �   �   File.php
+�       �   �   �   Stream.php
+�       �   �   �   UploadedFile.php
+�       �   �   �   
+�       �   �   ����Exception
+�       �   �           AccessDeniedException.php
+�       �   �           CannotWriteFileException.php
+�       �   �           ExtensionFileException.php
+�       �   �           FileException.php
+�       �   �           FileNotFoundException.php
+�       �   �           FormSizeFileException.php
+�       �   �           IniSizeFileException.php
+�       �   �           NoFileException.php
+�       �   �           NoTmpDirFileException.php
+�       �   �           PartialFileException.php
+�       �   �           UnexpectedTypeException.php
+�       �   �           UploadException.php
+�       �   �           
+�       �   ����RateLimiter
+�       �   �       AbstractRequestRateLimiter.php
+�       �   �       PeekableRequestRateLimiterInterface.php
+�       �   �       RequestRateLimiterInterface.php
+�       �   �       
+�       �   ����RequestMatcher
+�       �   �       AttributesRequestMatcher.php
+�       �   �       ExpressionRequestMatcher.php
+�       �   �       HostRequestMatcher.php
+�       �   �       IpsRequestMatcher.php
+�       �   �       IsJsonRequestMatcher.php
+�       �   �       MethodRequestMatcher.php
+�       �   �       PathRequestMatcher.php
+�       �   �       PortRequestMatcher.php
+�       �   �       SchemeRequestMatcher.php
+�       �   �       
+�       �   ����Session
+�       �   �   �   FlashBagAwareSessionInterface.php
+�       �   �   �   Session.php
+�       �   �   �   SessionBagInterface.php
+�       �   �   �   SessionBagProxy.php
+�       �   �   �   SessionFactory.php
+�       �   �   �   SessionFactoryInterface.php
+�       �   �   �   SessionInterface.php
+�       �   �   �   SessionUtils.php
+�       �   �   �   
+�       �   �   ����Attribute
+�       �   �   �       AttributeBag.php
+�       �   �   �       AttributeBagInterface.php
+�       �   �   �       
+�       �   �   ����Flash
+�       �   �   �       AutoExpireFlashBag.php
+�       �   �   �       FlashBag.php
+�       �   �   �       FlashBagInterface.php
+�       �   �   �       
+�       �   �   ����Storage
+�       �   �       �   MetadataBag.php
+�       �   �       �   MockArraySessionStorage.php
+�       �   �       �   MockFileSessionStorage.php
+�       �   �       �   MockFileSessionStorageFactory.php
+�       �   �       �   NativeSessionStorage.php
+�       �   �       �   NativeSessionStorageFactory.php
+�       �   �       �   PhpBridgeSessionStorage.php
+�       �   �       �   PhpBridgeSessionStorageFactory.php
+�       �   �       �   SessionStorageFactoryInterface.php
+�       �   �       �   SessionStorageInterface.php
+�       �   �       �   
+�       �   �       ����Handler
+�       �   �       �       AbstractSessionHandler.php
+�       �   �       �       IdentityMarshaller.php
+�       �   �       �       MarshallingSessionHandler.php
+�       �   �       �       MemcachedSessionHandler.php
+�       �   �       �       MigratingSessionHandler.php
+�       �   �       �       MongoDbSessionHandler.php
+�       �   �       �       NativeFileSessionHandler.php
+�       �   �       �       NullSessionHandler.php
+�       �   �       �       PdoSessionHandler.php
+�       �   �       �       RedisSessionHandler.php
+�       �   �       �       SessionHandlerFactory.php
+�       �   �       �       StrictSessionHandler.php
+�       �   �       �       
+�       �   �       ����Proxy
+�       �   �               AbstractProxy.php
+�       �   �               SessionHandlerProxy.php
+�       �   �               
+�       �   ����Test
+�       �       ����Constraint
+�       �               RequestAttributeValueSame.php
+�       �               ResponseCookieValueSame.php
+�       �               ResponseFormatSame.php
+�       �               ResponseHasCookie.php
+�       �               ResponseHasHeader.php
+�       �               ResponseHeaderLocationSame.php
+�       �               ResponseHeaderSame.php
+�       �               ResponseIsRedirected.php
+�       �               ResponseIsSuccessful.php
+�       �               ResponseIsUnprocessable.php
+�       �               ResponseStatusCodeSame.php
+�       �               
+�       ����polyfill-mbstring
+�       �   �   bootstrap.php
+�       �   �   bootstrap80.php
+�       �   �   composer.json
+�       �   �   LICENSE
+�       �   �   Mbstring.php
+�       �   �   README.md
+�       �   �   
+�       �   ����Resources
+�       �       ����unidata
+�       �               caseFolding.php
+�       �               lowerCase.php
+�       �               titleCaseRegexp.php
+�       �               upperCase.php
+�       �               
+�       ����polyfill-php83
+�       �   �   bootstrap.php
+�       �   �   bootstrap81.php
+�       �   �   composer.json
+�       �   �   LICENSE
+�       �   �   Php83.php
+�       �   �   README.md
+�       �   �   
+�       �   ����Resources
+�       �       ����stubs
+�       �               DateError.php
+�       �               DateException.php
+�       �               DateInvalidOperationException.php
+�       �               DateInvalidTimeZoneException.php
+�       �               DateMalformedIntervalStringException.php
+�       �               DateMalformedPeriodStringException.php
+�       �               DateMalformedStringException.php
+�       �               DateObjectError.php
+�       �               DateRangeError.php
+�       �               Override.php
+�       �               SQLite3Exception.php
+�       �               
+�       ����routing
+�           �   Alias.php
+�           �   CHANGELOG.md
+�           �   CompiledRoute.php
+�           �   composer.json
+�           �   LICENSE
+�           �   README.md
+�           �   RequestContext.php
+�           �   RequestContextAwareInterface.php
+�           �   Route.php
+�           �   RouteCollection.php
+�           �   RouteCompiler.php
+�           �   RouteCompilerInterface.php
+�           �   Router.php
+�           �   RouterInterface.php
+�           �   
+�           ����Annotation
+�           �       Route.php
+�           �       
+�           ����Attribute
+�           �       Route.php
+�           �       
+�           ����DependencyInjection
+�           �       AddExpressionLanguageProvidersPass.php
+�           �       RoutingResolverPass.php
+�           �       
+�           ����Exception
+�           �       ExceptionInterface.php
+�           �       InvalidArgumentException.php
+�           �       InvalidParameterException.php
+�           �       MethodNotAllowedException.php
+�           �       MissingMandatoryParametersException.php
+�           �       NoConfigurationException.php
+�           �       ResourceNotFoundException.php
+�           �       RouteCircularReferenceException.php
+�           �       RouteNotFoundException.php
+�           �       RuntimeException.php
+�           �       
+�           ����Generator
+�           �   �   CompiledUrlGenerator.php
+�           �   �   ConfigurableRequirementsInterface.php
+�           �   �   UrlGenerator.php
+�           �   �   UrlGeneratorInterface.php
+�           �   �   
+�           �   ����Dumper
+�           �           CompiledUrlGeneratorDumper.php
+�           �           GeneratorDumper.php
+�           �           GeneratorDumperInterface.php
+�           �           
+�           ����Loader
+�           �   �   AnnotationClassLoader.php
+�           �   �   AnnotationDirectoryLoader.php
+�           �   �   AnnotationFileLoader.php
+�           �   �   AttributeClassLoader.php
+�           �   �   AttributeDirectoryLoader.php
+�           �   �   AttributeFileLoader.php
+�           �   �   ClosureLoader.php
+�           �   �   ContainerLoader.php
+�           �   �   DirectoryLoader.php
+�           �   �   GlobFileLoader.php
+�           �   �   ObjectLoader.php
+�           �   �   PhpFileLoader.php
+�           �   �   Psr4DirectoryLoader.php
+�           �   �   XmlFileLoader.php
+�           �   �   YamlFileLoader.php
+�           �   �   
+�           �   ����Configurator
+�           �   �   �   AliasConfigurator.php
+�           �   �   �   CollectionConfigurator.php
+�           �   �   �   ImportConfigurator.php
+�           �   �   �   RouteConfigurator.php
+�           �   �   �   RoutingConfigurator.php
+�           �   �   �   
+�           �   �   ����Traits
+�           �   �           AddTrait.php
+�           �   �           HostTrait.php
+�           �   �           LocalizedRouteTrait.php
+�           �   �           PrefixTrait.php
+�           �   �           RouteTrait.php
+�           �   �           
+�           �   ����schema
+�           �       ����routing
+�           �               routing-1.0.xsd
+�           �               
+�           ����Matcher
+�           �   �   CompiledUrlMatcher.php
+�           �   �   ExpressionLanguageProvider.php
+�           �   �   RedirectableUrlMatcher.php
+�           �   �   RedirectableUrlMatcherInterface.php
+�           �   �   RequestMatcherInterface.php
+�           �   �   TraceableUrlMatcher.php
+�           �   �   UrlMatcher.php
+�           �   �   UrlMatcherInterface.php
+�           �   �   
+�           �   ����Dumper
+�           �           CompiledUrlMatcherDumper.php
+�           �           CompiledUrlMatcherTrait.php
+�           �           MatcherDumper.php
+�           �           MatcherDumperInterface.php
+�           �           StaticPrefixCollection.php
+�           �           
+�           ����Requirement
+�                   EnumRequirement.php
+�                   Requirement.php
+�                   
+����ws-server
+        ChatServer.php
+        server.php
+        

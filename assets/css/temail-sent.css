@@ -1,0 +1,257 @@
+:root{
+    --primary: #E0E1DD;
+    --secondary: #0D1B2A ;
+    --dark: #1B263B;
+    --light: #5d738f;
+    --mid: #1B263B;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+section{
+  background-color: var(--primary);
+  height: 100vh;
+  background-image: url("../../images/639f4c15ad4f90afa630803e745a543e213f21ff.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.3rem;
+  background-color: transparent !important ;
+  background: rgba(255, 255, 255, 0.1) !important; 
+  box-shadow: 0 3px 8px 0 var(--light);
+  backdrop-filter: blur(15px) !important; 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+
+}
+
+.navbar-brand{
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand img {
+  width: 35px !important;
+  height: auto;
+}
+
+.navbar-brand p{
+  color: var(--secondary) !important;
+  letter-spacing: 3px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 8px;
+  margin-left: 10px;
+}
+
+.btn {
+  font-size: 1.2rem !important;
+  padding: 0.5rem 1rem;
+}
+
+
+
+main{
+  display: flex;
+
+}
+
+.colored{
+  color: var(--secondary);
+}
+
+
+.form_cont p{
+  color: var(--light);
+  font-size: 1.2rem;
+}
+
+.form_cont h6{
+  color: var(--light);
+  font-size: 1.4rem;
+  font-weight: 400;             
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.form_cont h1{
+  color: var(--secondary);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.form_cont a{
+  text-decoration: none;
+  color: var(--mid);
+  font-size: 1.2rem;
+}
+
+.form{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_cont{
+  width: 700px;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: rgba(255, 255, 255, 0.1) !important; 
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 22px 0 var(--light);
+  backdrop-filter: blur(15px) !important; 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+} 
+
+form{
+  max-width: 100%;
+}
+
+
+
+.inputs-div {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    text-align: center;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.inputs-div input, select {
+   width: 15%;
+   height: 115px;
+   border: solid var(--light) 3px;
+   border-radius: 10px;
+   font-size: 40px;
+   font-weight: 600;
+   text-align: center;
+   color: var(--dark);
+   background-color: var(--primary);
+}
+
+
+.inputs-div input:focus, select:focus {
+    border: solid var(--dark) 3px;
+}
+
+
+.clear-btn{
+    padding: 5px 20px !important;
+    border: solid var(--light) 2px !important;
+    font-weight: 600 !important;
+    color: var(--light);
+}
+
+.clear-btn:hover{
+    border: solid var(--light) 2px !important;
+    background-color: var(--light) !important;
+    color: var(--primary);
+}
+
+
+
+
+
+.submit{
+  background-color: var(--dark);
+  color: var(--primary);
+  border: none;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit:hover{
+  background-color: var(--secondary);
+}
+
+
+.form-control:focus {
+  border-color: var(--secondary) !important; 
+  box-shadow: none !important;         
+  outline: none !important;           
+  background-color: transparent !important; 
+  color: var(--secondary) !important;       
+}
+
+
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--mid);
+  }
+}
+
+
+
+@media screen and (max-width: 765px) {
+
+}
+
+
+@media screen and (max-width: 575px) {
+  
+  .navbar-brand p{
+    font-size: 1.4rem;
+  }
+
+  .form_cont{
+    width: 100vw;
+  }
+
+  .form-control{
+    width: 100%;
+  }
+
+  .submit{
+    width: 100%;
+  }
+
+  .form_cont p{
+    color: var(--light);
+    font-size: 1.2rem;
+  }
+
+  .form_cont h6{
+    color: var(--light);
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .form_cont h1{
+    color: var(--secondary);
+    font-size: 1.8rem;
+  }
+}
+
+
+
+
+
+
+
